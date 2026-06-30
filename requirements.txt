@@ -1,0 +1,2 @@
+# Oficjalna biblioteka Google Ads API (Python)
+google-ads>=25.0.0

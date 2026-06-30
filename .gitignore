@@ -1,0 +1,29 @@
+# --- Poświadczenia / sekrety: NIGDY nie commitować ---
+google-ads.yaml
+*.yaml.local
+client_secret*.json
+*.json.cred
+.env
+.env.*
+!.env.example
+
+# --- Wyniki audytów (mogą zawierać dane konta) ---
+reports/
+*.audit.json
+*.audit.csv
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- System / edytory ---
+.DS_Store
+.idea/
+.vscode/

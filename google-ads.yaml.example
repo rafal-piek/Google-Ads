@@ -1,0 +1,19 @@
+# Skopiuj ten plik do `google-ads.yaml` i uzupełnij swoimi danymi.
+# UWAGA: `google-ads.yaml` jest w .gitignore — NIGDY nie commituj prawdziwych poświadczeń.
+#
+# Skąd wziąć poszczególne wartości:
+#   developer_token   -> Google Ads (konto MCC) > Tools > API Center
+#   client_id         -> Google Cloud Console > APIs & Services > Credentials (OAuth client)
+#   client_secret     -> jw.
+#   refresh_token     -> wygeneruj raz lokalnie (patrz README, sekcja "Refresh token")
+#   login_customer_id -> ID konta MCC (bez myślników), jeśli logujesz się przez managera
+
+developer_token: "INSERT_DEVELOPER_TOKEN"
+client_id: "INSERT_OAUTH_CLIENT_ID"
+client_secret: "INSERT_OAUTH_CLIENT_SECRET"
+refresh_token: "INSERT_REFRESH_TOKEN"
+
+# Tylko jeśli korzystasz z konta menedżerskiego (MCC). Bez myślników, np. 1234567890
+# login_customer_id: "1234567890"
+
+use_proto_plus: True
