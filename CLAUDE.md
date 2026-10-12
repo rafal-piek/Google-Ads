@@ -26,9 +26,10 @@ rozwoju projektu.
 
 > Uzupełnij, gdy pojawią się pierwsze pliki. Przykładowe miejsca na komendy:
 
-- **Instalacja zależności:** _(np. `pip install -r requirements.txt` lub `npm install`)_
-- **Uruchomienie:** _(do uzupełnienia)_
-- **Testy:** _(do uzupełnienia)_
+- **Instalacja zależności:** `pip install -r requirements-dev.txt`
+- **Uruchomienie:** `gads_audit.audit.run_audit("osrodek" | "fundacja" | "mental", ads, snapshot)`
+  (CLI i pobieranie danych z API — do zrobienia)
+- **Testy:** `python3 -m pytest`
 - **Lint / formatowanie:** _(do uzupełnienia)_
 
 ## Konwencje i decyzje
@@ -36,7 +37,15 @@ rozwoju projektu.
 > Zapisuj tu ważne ustalenia, żeby nie powtarzać ich w każdej sesji
 > (struktura katalogów, styl kodu, sposób obsługi sekretów/credentials itp.).
 
-- _(brak — do uzupełnienia)_
+- Kod w `src/gads_audit/`. Trzy profile kont w `accounts.py` (Osrodek, Fundacja,
+  Mental) — każdy audyt działa na jednym profilu; dane z innego customer ID
+  przerywają audyt, a URL z cudzej domeny to błąd „pomieszanie kont”.
+- Reguły Ad Grants (`checks/ad_grants.py`) działają tylko dla Fundacji. Daty
+  i źródła weryfikacji są w docstringu — sprawdzaj zasady ponownie przy każdej
+  pracy nad kontem i aktualizuj datę.
+- Słowniki CTA i zakazanych sformułowań dla usług terapeutycznych (PL i en-GB)
+  w `therapy_vocab.py`; słowniki e-commerce celowo usunięte.
+- W repo tylko identyfikatory kont (customer ID, domena), bez e-maili logowania.
 
 ## Bezpieczeństwo / dane wrażliwe
 

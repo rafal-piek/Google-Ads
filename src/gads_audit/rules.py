@@ -1,5 +1,6 @@
 """Stałe i progi audytu — oparte na oficjalnych limitach Google Ads oraz
-sprawdzonych dobrych praktykach (stan na 2024/2025).
+sprawdzonych dobrych praktykach (stan na 2024/2025; limity RSA bez zmian
+przy weryfikacji 2026-10-12).
 
 Trzymamy je w jednym miejscu, żeby łatwo aktualizować, gdy Google zmieni limity.
 """
@@ -44,22 +45,7 @@ SUPERLATIVES = [
     "best", "number one", "#1", "cheapest", "guaranteed",
 ]
 
-# Sygnały wezwania do działania (CTA) — sprawdzamy, czy reklama je zawiera.
-CTA_SIGNALS = [
-    # PL
-    "kup", "zamów", "sprawdź", "zobacz", "odkryj", "wypróbuj", "pobierz",
-    "zapisz się", "zarezerwuj", "umów", "skorzystaj", "dołącz", "zadzwoń",
-    "poznaj", "wybierz", "zacznij",
-    # EN
-    "buy", "order", "shop", "get", "try", "discover", "download",
-    "sign up", "book", "start", "learn more", "subscribe", "join", "save",
-]
-
-# Sygnały „konkretu” (liczby, ceny, promocje) — podnoszą skuteczność.
-import re  # noqa: E402
-
-OFFER_PATTERN = re.compile(
-    r"(\d+\s?%|\d+\s?(zł|pln|eur|usd|\$|€)|promocj|rabat|zniżk|gratis|"
-    r"darmow|sale|discount|free|off\b)",
-    re.IGNORECASE,
-)
+# Słowniki CTA i zakazanych sformułowań są osobno dla usług terapeutycznych
+# (PL i brytyjski angielski) — patrz `therapy_vocab.py`. Ogólne słowniki
+# e-commerce („kup”, „rabat”, „sale”) celowo usunięto: nie pasują do żadnego
+# z kont Yellow Scarf.
