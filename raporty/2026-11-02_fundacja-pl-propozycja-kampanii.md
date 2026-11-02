@@ -263,7 +263,7 @@ Nagłówki:
   - N: Wsparcie dla bliskich
   - N: Martwisz się o bliską osobę?
   - N: Fundacja Yellow Scarf
-  - N: Konsultacja i grupa dla bliskich
+  - N: Rozmowa i grupa dla bliskich
   - N: Pomoc także dla Ciebie
   - N: Rozmowa online po polsku
   - N: Dla partnerów i rodziców
