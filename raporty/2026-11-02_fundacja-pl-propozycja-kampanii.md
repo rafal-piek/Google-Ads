@@ -154,7 +154,7 @@ Nagłówki:
   - N: Nie wiesz, od czego zacząć?
 Opisy:
   - O: Psychoterapia online po polsku dla dorosłych. Zaczynamy od krótkiej rozmowy o potrzebach.
-  - O: Razem wybieramy formę wsparcia: terapia indywidualna, par lub rodzinna. Decyzja jest Twoja.
+  - O: Razem wybieramy formę wsparcia: terapia indywidualna, par lub rodzinna. Decydujesz Ty.
   - O: Fundacja Yellow Scarf z Katowic. Spotkania online, poufność, koszt podany przed startem.
   - O: Bez skierowania i diagnozy. Napisz przez formularz lub zadzwoń w dni robocze.
 
@@ -173,7 +173,7 @@ Nagłówki:
   - N: Poufność i kodeks etyki
   - N: Napisz lub zadzwoń
 Opisy:
-  - O: Możesz czuć przeciążenie, niepokój, smutek albo utknięcie. Terapia daje miejsce na rozmowę.
+  - O: Możesz czuć przeciążenie, niepokój, smutek albo utknięcie. Terapia to miejsce na rozmowę.
   - O: Nie musisz mieć wszystkiego poukładanego, zanim napiszesz. Wystarczy krótka rozmowa.
   - O: Psychoterapia online po polsku, prowadzona przez specjalistów fundacji. Poufność.
   - O: Odpowiadamy w dni robocze, zwykle do 2 dni. Koszt i zasady poznasz przed spotkaniem.
@@ -233,7 +233,7 @@ Nagłówki:
   - N: Poufność i kodeks etyki
   - N: Spotkania w stałym gronie
 Opisy:
-  - O: Grupy wsparcia online po polsku dla dorosłych. Małe, stałe grono i prowadzenie specjalistów.
+  - O: Grupy wsparcia online po polsku dla dorosłych. Małe, stałe grono, prowadzą specjaliści.
   - O: Przed dołączeniem krótka rozmowa wstępna, by sprawdzić, czy grupa odpowiada potrzebom.
   - O: Fundacja Yellow Scarf. Spotkania online, poufność, jasne koszty przed startem grupy.
   - O: Napisz przez formularz lub zadzwoń w dni robocze. Podpowiemy, która grupa rusza najbliżej.
@@ -253,7 +253,7 @@ Nagłówki:
   - N: Zapytaj o wolne miejsca
   - N: Online, z dowolnego miejsca
 Opisy:
-  - O: W grupie można usłyszeć, że inni mierzą się z podobnymi sprawami, i spróbować czegoś nowego.
+  - O: W grupie można usłyszeć, że inni mierzą się z podobnym, i spróbować czegoś nowego.
   - O: Grupy prowadzą specjaliści fundacji. Zasady, terminy i koszt poznasz na rozmowie wstępnej.
   - O: Grupy wsparcia i terapeutyczne online po polsku, dla dorosłych z Polski i z zagranicy.
   - O: Napisz, czego szukasz, a podpowiemy, czy lepszym startem będzie grupa czy rozmowa.
@@ -263,7 +263,7 @@ Nagłówki:
   - N: Wsparcie dla bliskich
   - N: Martwisz się o bliską osobę?
   - N: Fundacja Yellow Scarf
-  - N: Konsultacje i grupa dla bliskich
+  - N: Konsultacja i grupa dla bliskich
   - N: Pomoc także dla Ciebie
   - N: Rozmowa online po polsku
   - N: Dla partnerów i rodziców
