@@ -1,0 +1,31 @@
+# Notatki z researchu — audyt 3 kont, 2026-10-24 (sprawdzone 09:40–10:10 UTC)
+
+## Oficjalne Google (data odczytu 2026-10-24)
+- Ad Grants compliance guide (support.google.com/nonprofits/answer/9314402): CTR ≥5%/mies. (2 mies. z rzędu <5% = deaktywacja), QS 1–2 pauza, bez single-word (wyj. marka, approved medical conditions), bez generycznych, ≥2 grupy/kampanię, ≥2 sitelinki, ≥1 konwersja/mies. (konta od 2018/2019), konwersje muszą być „meaningful” (kliknięcia ≠ konwersje), ankieta roczna, e-mail notyfikacji opt-in. Komunikacja głównie przez powiadomienia w koncie.
+- Ad Grants account mgmt (support.google.com/grants/answer/117827): geotargeting tylko gdzie usługi; konta od 22.04.2019 muszą używać conversion-based Smart Bidding (Max Conv, Max Conv Value, tCPA, tROAS); naruszenie = automatyczne zawieszenie bez powiadomienia. $2 cap CPC nie dotyczy Max Conversions (Whole Whale).
+- Ad Grants 2025: PMax dostępny w kontach grantowych od początku 2025; Maps placements (Google blog 11.06.2025) tylko w PMax i tylko inventory Search+Maps, wymaga podpięcia Business Profile i location assets.
+- Addiction services (adspolicy 15598649): certyfikacja tylko AU, CA, FR, IE, NZ, US. UK NIE. Dotyczy recovery-oriented drug & alcohol services; behavioural/nicotine poza zakresem.
+- Healthcare & medicines (176031): UK — brak certyfikacji dla psychoterapii/counsellingu; telemedicine (leki) wymaga LegitScript. Speculative treatments zabronione.
+- Health in personalised advertising (16701855) — bez zmian; update 17598957 (3.09.2026, od 30.10.2026) dotyczy tylko alkoholu na YouTube. Nic nowego dla zdrowia psychicznego.
+- AI Max for Search (15909989): domyślnie WŁĄCZONY w nowych kampaniach Search; komponenty: search term matching, text customization, final URL expansion; da się wyłączyć całość lub per komponent; brand inclusions/exclusions.
+- Limited ad serving (ppc.land, 5.08.2026): rozszerzony na Search 12.06.2026, na wszystkie produkty 08.2026, pełne wdrożenie do 2028; czynniki: dojrzałość konta, weryfikacja reklamodawcy, jasność marki; zalecenia: weryfikacja, marka w reklamie i na LP, pinowanie domeny/marki na poz. 1.
+- Ads w AI Mode/AI Overviews: UK — nie ma jeszcze reklam w AIO/AI Mode (the7stars, 2025); kwalifikują broad match/AI Max/PMax. Healthcare wykluczone (notatka z 15.10).
+
+## Benchmarki (UK pierwsze)
+- Medico Digital UK 2025 (XII.2024–XI.2025, £5,5 mln, 433 kampanie Search, direct-to-patient): Mental health CPC £1,02, CTR 6,28%, CVR 4,69%, CPA £21,74. Healthcare ogółem: CTR 6,55%, CPC £1,86, CVR 4,89%, CPA £47,91. Dobrze ustrukturyzowane konta w skali: CPA ~£23 vs ~£48 standalone.
+- Ridley Digital UK (26.06.2026, rev. 09.2026, dane agencyjne): Healthcare Search CPC £2,85, CPL £51,80 (implikowane CVR ~5,5%). Śr. CTR Search wszystkie branże 4,7%.
+- LocaliQ US (13.01.2026; X.2024–IX.2025): Mental health CTR 4,46%, CPC $4,22 (+42% r/r), CVR 1,85% (−61%), CPL $141 (+146%). Healthcare avg CTR 6,07%, CVR 8,09%, CPL $66.
+- Benchmarketing (US, do IV kw. 2024, upd. III.2026): Mental health CPC $4,76, CTR 6,61%, CVR 12,4%, CPA $40 (niespójne metadane).
+- Landing pages health (Web Tonic 10.2026 za Unbounce/FoundryCRO): mediana CVR healthcare 3,8–5,1%, wellness 8,2%; desktop konwertuje ~22% lepiej; 3–5 pól formularza; LCP mobile ≤2,5 s.
+- Seer Interactive (24.04.2026; 53 marki, 5,47 mln zapytań): przy AIO organic CTR 3,19%→1,31% (XII.2025)→2,36% (II.2026); paid CTR przy AIO 14,6%→16,2%; cytowanie w AIO = +120% kliknięć organicznych vs niecytowanie, ale −38% vs SERP bez AIO. Korelacyjne.
+- Bidding low-volume (Hellyeah 19.10.2026; Google 13020501/12563349): <15 konw./mies. → Max Conversions bez tCPA; tCPA od ~30; portfolio łączy wolumen; zmiana budżetu >20% resetuje uczenie; wiele akcji primary = optymalizacja pod niskofrykcyjne zdarzenia; Search i PMax na tej samej akcji dzielą sygnał.
+- PMax lead gen (NAV43 4.05.2026): PMax dopiero przy ≥30 konw./mies. i budżecie ~$2,5–3,5k; Adalysis 2025 (3 300 kampanii): Search ma wyższy CVR niż PMax na tych samych hasłach; bez offline import PMax nie optymalizuje jakości leadów (u nas offline import zakazany).
+- GEO: Yext 10.2025 (6,8 mln cytowań): 86% cytowań ze źródeł kontrolowanych przez markę; healthcare 52,6% z listingów/katalogów (najwyżej z branż). SOCi 17.02.2026: ChatGPT poleca 1,2% lokalizacji vs 35,9% w 3-pack; polecane mają ≥4,3★, odpowiedzi na opinie, spójny NAP. Similarweb GEO (23.03.2026): statystyki+cytaty +30–40% widoczności (Princeton 2024); AirOps: tylko 30% marek utrzymuje się między odpowiedziami. Doctor Rank: w healthcare 24% cytowań Perplexity to katalogi branżowe.
+- SEO terapeuci 2026 (seofortherapists.org 23.05.2026; scoutrival): 1 strona per specjalizacja + per lokalizacja; YMYL: kwalifikacje tekstem, „last reviewed by”; schema MedicalBusiness + Person; GBP online-only = service area, map pack ograniczony; nie prosić klientów o opinie (etyka); Psychology Today top w Google ~96% zapytań o terapię (US).
+- BACP Public Perceptions 2026 (YouGov, n=5 058, 16.02–6.03.2026): 37% miało terapię; bariera koszt 35%, kolejki 22%; tylko 26% sprawdziło kwalifikacje; 48% myśli, że „therapist” to tytuł chroniony.
+- ASA Gary Baron 12.08.2026: fałszywy claim członkostwa BACP = CAP 3.1, 3.52, 3.53; brak odpowiedzi ASA = 1.7. Potwierdza decyzję o zdjęciu claimów BACP (22.10).
+
+## Wcześniejsze ustalenia własne (pliki Desktop 15.10 i 20.10, raport startowy 24.10)
+- 733: Search CTR 8,9% > benchmark; koszt/konw. Leads 1 £62–72; pary £448/0 konw. w X; Leads 1 42% utraty IS przez budżet; PMax ma 5 tekstów do wymiany (superlatyw, skuteczność, literówki); {KeyWord} daje „Uk”; brak liczby lat doświadczenia i ceny w reklamach; LP /pl/oferta.html podaje „bezpłatna konsultacja 15 min” (sprzeczność z zasadą).
+- 311: QS 3 (LP poniżej średniej, exp. CTR poniżej), CPC £3,16 = 3,1× benchmark, koszt zapytania £165 vs próg £52/£31; 0 klientów z ~67 kontaktów; telefon zamilkł; 12 słów do pauzy (38% wydatku, 7% konw.) — zrobione 15.10; rekomendacja: LP /book-a-session, katalogi (Psychology Today 6 mies. £0), panele ubezpieczycieli; decyzja 1.11 o podziale budżetu; A1 opis HCPC do poprawy; A2 objaśnienie BACP (zdjęte 22.10).
+- 798: brak API; GA4: Paid Search 2 sesje w X, 0 donate_click; ryzyko wymogu 1 konwersja/mies. i CTR 5%; MCC link PENDING (multi-party approval).
