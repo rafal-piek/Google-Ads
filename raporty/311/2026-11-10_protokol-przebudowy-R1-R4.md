@@ -6,7 +6,7 @@ Podstawa: decyzja Rafała 10.11 („bardziej przebudowa reklam niż zlikwidowani
 | Krok | Zakres | Stan po API |
 |---|---|---|
 | R1 | Wstrzymanie wszystkich słów PHRASE (w tym „find a private counsellor” = 64% kosztu z 60 dni) | WYKONANE — 0 aktywnych phrase |
-| R2 | Exact z „online/private/video”, końcowy URL /therapists | WYKONANE — 23 exact ENABLED, wszystkie APPROVED, URL /therapists |
+| R2 | Exact z „online/private/video”, końcowy URL /therapists | WYKONANE — 22 exact ENABLED, wszystkie APPROVED, URL /therapists |
 | R3 | Wykluczenia kampanii (infolinie, numery, NHS, 24/7, „right now”, „contact number” itd.) | WYKONANE — widoczne w campaign_criterion |
 | R4 | Nowa RSA „Private Service, Not NHS / Online Only”, stare RSA wstrzymane | NIEWYKONANE — edytor reklam blokowany: „Turn off ad blockers” (bloker reklam w Chrome) |
 | R5 | Max clicks, limit CPC £3 | Nie robione — poza zakresem „dzialaj” |
