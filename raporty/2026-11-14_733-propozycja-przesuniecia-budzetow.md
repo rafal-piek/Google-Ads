@@ -52,3 +52,14 @@ Razem po B1+B2: **£164/dz** (Leads 1 £129, PMax £35), czyli o £20 mniej niż
 
 1. „tak B1”, „tak B2” albo „tak B1+B2” (albo B2 w wariancie £10/dz).
 2. Od Gośki: liczby sesji za 9, 10 i 11.11 (bez nazwisk i numerów), żeby potwierdzić, czy spadek jest prawdziwy.
+
+## WDROŻONE 14.11.2026 ok. 18:50 UTC (Rafał „tak B1+B2”, 18:46)
+
+| # | Zmiana | Przed | Po (API) |
+|---|---|---|---|
+| B1 | Leads 1 / PSYCHOTERAPIA ONLINE (199588700847) | ENABLED | **PAUSED** |
+| B1 | Leads 1 / PSYCHOLOG ONLINE (201497589808) | ENABLED | **PAUSED** |
+| B2 | Kampania PL \| London \| Search \| Therapy (24331160306) | ENABLED, £20/dz | **PAUSED** (budżet £20 nieruszony) |
+
+Aktywne po zmianie: Leads 1 £129 (grupy OGÓLNY, DZIECIĘCY, UZALEŻNIENIA), PMax-1 £35 = **£164/dz**. Nic nie zostało usunięte. Przy B2 w menu „Edit” omyłkowo otworzyło się okno „Permanently remove 1 campaign?”; anulowane (Cancel), kampania nie została usunięta, potem wybrano „Pause”. API potwierdza status PAUSED.
+Kontrola: 20.11 (Ads) i 28.11 (log Gośki).
