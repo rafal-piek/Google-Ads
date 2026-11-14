@@ -1,4 +1,4 @@
-# Mental 311 — protokół R4: reklama „Not NHS / Online Only”, 14.11.2026
+# Mental 311 — protokół R4 + M1: reklama „Not NHS / Online Only” i 4 słowa exact, 14.11.2026
 
 Konto: Mental 311-878-5541 (yellowscarftherapy.co.uk, YELLOW SCARF CIC). Kampania 23815171848, Grupa reklam 1 (196547957415).
 Podstawa: Rafał 14.11 „ok to dzialaj” (dokończenie R4 z przebudowy 10.11). Wykonanie: panel w Chrome Rafała (Claude in Chrome). Weryfikacja: odczyt API przed i po.
@@ -22,6 +22,10 @@ Podstawa: Rafał 14.11 „ok to dzialaj” (dokończenie R4 z przebudowy 10.11).
 
 Siła reklamy w edytorze: „Average/Good” (przypięcia obniżają ocenę — świadomy wybór, priorytetem jest jasny komunikat „not NHS / online only”).
 
-Nie ruszano: stawek, strategii (R5), budżetu, słów kluczowych.
+## Uzupełnienie M1 (audyt rezerw 14.11, Rafał „ok to dzialaj”)
+3. Dodane słowa exact w Grupie reklam 1: [online therapy], [online counselling], [online therapist], [online counsellor].
+   API po zmianie: wszystkie 4 ENABLED, EXACT, UNDER_REVIEW (zwykła weryfikacja), bez nadpisania URL → używają URL reklamy /therapists.
+
+Nie ruszano: stawek, strategii (R5), budżetu ani istniejących słów kluczowych.
 
 Do sprawdzenia ok. 21.11: wyświetlenia i CTR nowej reklamy, Wynik Jakości słów exact, odsetek telefonów-pomyłek (log Nikoli).
