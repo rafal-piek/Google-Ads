@@ -25,6 +25,7 @@ Siła reklamy w edytorze: „Average/Good” (przypięcia obniżają ocenę — 
 ## Uzupełnienie M1 (audyt rezerw 14.11, Rafał „ok to dzialaj”)
 3. Dodane słowa exact w Grupie reklam 1: [online therapy], [online counselling], [online therapist], [online counsellor].
    API po zmianie: wszystkie 4 ENABLED, EXACT, UNDER_REVIEW (zwykła weryfikacja), bez nadpisania URL → używają URL reklamy /therapists.
+   Potwierdzenie Rafała 14.11 19:10 UTC: słowa „Zostawić” (zgoda na pozostawienie po pytaniu, czy „ok to dzialaj” obejmował też słowa).
 
 Nie ruszano: stawek, strategii (R5), budżetu ani istniejących słów kluczowych.
 
